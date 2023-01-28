@@ -1,2 +1,2 @@
-# Projects-
-This repository contains all my 
+# Projects: 
+Repository for my Data Science related Projects.
