@@ -1,1 +1,4 @@
-
+This project explores the use of SARIMA model to make predictions of sales in a chain of store. During this project I learned how to use ACF and PACF plots to determine the parameters of a SARIMA model. I also explored the auto_arima function to automate the process. In the future, I wil expand the model by using other techniques such as :
+- RNN
+- Prophet
+- XGBOOST
