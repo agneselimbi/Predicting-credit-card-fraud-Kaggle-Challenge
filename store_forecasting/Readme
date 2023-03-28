@@ -1,4 +1,3 @@
-This project explores the use of SARIMA model to make predictions of sales in a chain of store. During this project I learned how to use ACF and PACF plots to determine the parameters of a SARIMA model. I also explored the auto_arima function to automate the process. In the future, I wil expand the model by using other techniques such as :
-- RNN
-- Prophet
-- XGBOOST
+This project explores the use of SARIMA model to make predictions of sales in a chain of store. During this project I learned how to use ACF and PACF plots to determine the parameters of a SARIMA model. For the store 10, the SARIMA model with the best fit was (1,1,7), (1,1,0)$$_7$$. The KPI i choose to evaluate the goodness of fit is the RMSE (Root Mean Squared Error) and I obtained a value of $$449.858$$. With the auto arima library, I automated the fitting process and the model with the best fit was (0,1,3) (0,0,0)$$_0$$.  which scored  457.607 on the RMSE. This result is surprising to me as it suggests the data presents no seasonality. However we were able to discern weekly and every semi-annual seasonality in the data. In the graph below, I have visualized the goodness of fit we can obtain with the SARIMA model.
+![alt text](http://url/to/Screenshot 2023-03-28 160937.png)
+
